@@ -2,11 +2,11 @@
 #include<conio.h>
 void main()
 {
-char a[100];  int i,count;
-printf("\n enter the string");
+int a[100];  int i,count;
+printf("\n enter the NUM");
 for(i=0;i<=100;i++)
 {
-scanf("%s",a[i]);
+scanf("%d",a[i]);
 }
 for(i=0;i<100;i++)
 {
@@ -19,4 +19,5 @@ else
 printf("\n no");
 }
 }
+  getch();
 }
